@@ -2,6 +2,7 @@ import BarChart from "components/BarChart";
 import DataTable from "components/DataTable";
 import DonutChart from "components/DonutChart";
 import NavBar from "components/NavBar";
+import Footer from "components/Footer"
 
 
 const Dashboard = () => {
@@ -25,7 +26,7 @@ const Dashboard = () => {
                 </div>
                 <DataTable />
             </div>
-            <footer />
+            <Footer />
         </>
     );
 }
